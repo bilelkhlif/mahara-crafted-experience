@@ -29,17 +29,17 @@ const CTASection = () => {
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#"
+                href="/client"
                 className="group inline-flex items-center gap-2 bg-accent text-accent-foreground font-semibold px-8 py-4 rounded-full text-sm transition-all duration-300 hover:shadow-[var(--shadow-glow)] hover:-translate-y-0.5"
               >
-                Create Free Account
+                Hire Talent
                 <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a
-                href="#"
+                href="/provider"
                 className="inline-flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground font-medium text-sm transition-colors border border-primary-foreground/20 px-8 py-4 rounded-full hover:border-primary-foreground/40"
               >
-                Talk to Sales
+                Offer Services
               </a>
             </div>
 

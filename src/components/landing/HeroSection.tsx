@@ -41,18 +41,15 @@ const HeroSection = () => {
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="#cta"
+                href="/client"
                 className="group inline-flex items-center gap-2 bg-accent text-accent-foreground font-semibold px-7 py-3.5 rounded-full text-sm transition-all duration-300 hover:shadow-[var(--shadow-glow)] hover:-translate-y-0.5"
               >
-                Start Free
+                Find Talent
                 <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
               </a>
-              <button className="group inline-flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground font-medium text-sm transition-colors duration-200">
-                <span className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center group-hover:border-primary-foreground/40 transition-colors">
-                  <Play size={14} className="ml-0.5" />
-                </span>
-                Watch Demo
-              </button>
+              <a href="/provider" className="group inline-flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground font-medium text-sm transition-colors duration-200 border border-primary-foreground/20 px-7 py-3.5 rounded-full hover:border-primary-foreground/40">
+                I'm a Provider
+              </a>
             </div>
           </motion.div>
 
